@@ -68,7 +68,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hello! I'm Kabelo: `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Hi! I'm Kabelo : `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>A results‐driven Software Engineer and AI & ML Enthusiast with experience in application development, scripting and
                     coding,web application design, product testing and deployment, UI testing, and requirements
                     gathering. Proven aptitude for implementing innovative solutions to enhance efficiency, improve
