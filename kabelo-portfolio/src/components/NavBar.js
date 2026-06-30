@@ -56,9 +56,9 @@ export const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="https://www.linkedin.com/in/kabelo-gaogomotswe-8284a8348"><img src={navIcon1} alt="" /></a>
-              <a href="https://web.facebook.com/profile.php?id=100005386905759"><img src={navIcon2} alt="" /></a>
-              <a href="https://www.instagram.com/kabelo.ng/"><img src={navIcon3} alt="" /></a>
+              <a href="https://www.linkedin.com/in/kabelo-gaogomotswe-8284a8348" target="_blank" rel="noreferrer"><img src={navIcon1} alt="LinkedIn profile" /></a>
+              <a href="https://web.facebook.com/profile.php?id=100005386905759" target="_blank" rel="noreferrer"><img src={navIcon2} alt="Facebook profile" /></a>
+              <a href="https://www.instagram.com/kabelo.ng/" target="_blank" rel="noreferrer"><img src={navIcon3} alt="Instagram profile" /></a>
             </div>
             <button className="vvd" onClick={scrollToContact}><span>Let’s Connect</span></button>
           </span>

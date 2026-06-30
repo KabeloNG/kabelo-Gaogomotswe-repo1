@@ -11,14 +11,14 @@ export const Footer = () => {
       <Container>
         <Row className="align-items-center">
           <MailchimpForm />
-          <Col size={12} sm={6}>
-            <img src={transparentlogo} alt="Logo" />
+          <Col xs={12} sm={6}>
+            <img src={transparentlogo} alt="Kabelo portfolio logo" />
           </Col>
-          <Col size={12} sm={6} className="text-center text-sm-end">
+          <Col xs={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
-              <a href="www.linkedin.com/in/kabelo-gaogomotswe-8284a8348"><img src={navIcon1} alt="" /></a>
-              <a href="https://web.facebook.com/profile.php?id=100005386905759"><img src={navIcon2} alt="" /></a>
-              <a href="https://www.instagram.com/kabelo.ng/"><img src={navIcon3} alt="" /></a>
+              <a href="https://www.linkedin.com/in/kabelo-gaogomotswe-8284a8348" target="_blank" rel="noreferrer"><img src={navIcon1} alt="LinkedIn profile" /></a>
+              <a href="https://web.facebook.com/profile.php?id=100005386905759" target="_blank" rel="noreferrer"><img src={navIcon2} alt="Facebook profile" /></a>
+              <a href="https://www.instagram.com/kabelo.ng/" target="_blank" rel="noreferrer"><img src={navIcon3} alt="Instagram profile" /></a>
             </div>
             <p>Copyright kbCodes.dev {new Date().getFullYear()}. All Rights Reserved</p>
           </Col>
